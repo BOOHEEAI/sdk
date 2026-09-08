@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+
+# Go
+# (Go 没有编译产物需要忽略,go build 输出到指定路径)
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+
+# Node.js
+node_modules/
+dist/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Secrets
+.env
+*.pem
+*.key
